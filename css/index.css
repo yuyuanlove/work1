@@ -1,0 +1,41 @@
+html,body{
+	max-width: 640px;
+	background: #fff;
+	margin: 0 auto;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	zoom: 1;
+	color: #000;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+.mean{
+	width:100%;
+	height: 55px;
+	max-width: 640px;
+	position:fixed;
+	bottom: 0;
+	z-index: 100;
+	border-top: 1px solid #d8d8d8;
+}
+.mean ul{
+	width: 100%;
+	height: 55px;
+}
+.mean ul li{
+	width: 20%;
+	float: left;
+	text-align: center;
+	padding-top: 7px;
+	font-size: 12px;
+	line-height: 22px;
+}
+i{
+	display: block;
+	line-height: 25px;
+}
+.fa-home{
+	color: #000;
+}
